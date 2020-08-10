@@ -1,0 +1,13 @@
+[ignore]
+
+[include]
+./*.js
+./*.mjs
+./client/src/*.ts
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
