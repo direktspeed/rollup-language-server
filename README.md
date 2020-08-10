@@ -1,5 +1,8 @@
 # LSP Multi Server Example
 
+Today most People code for Bundlers not for a directly Target Device so i think it is time to implement a rollup-language-server that replaces typescript but will also allow to use typescript with it and so eliminate the need for .mjs support and other extensions inside the current IDE's that are using typescript as the language Server.
+
+
 A language server example that demonstrates how to start a server per workspace folder. If the workspace has nested workspace folders only a server for the outer most workspace folder is started assuming that the language service handles nested code.
 
 The example uses proposed Language Server protocol. So the code demoed here might change when the final version of the configuration and workspace folder protocol is released.
